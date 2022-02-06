@@ -1,0 +1,32 @@
+{
+  "name": "jensen-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "parcel serve src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "audit-log": "^0.9.1",
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "marvel-characters": "^1.0.3",
+    "marvel-comics-characters": "^1.1.1",
+    "mongoose": "^6.1.8",
+    "normalize.css": "^8.0.1",
+    "parcel": "^2.2.0",
+    "sass": "^1.48.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkingbrandt/jensen-frontend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dkingbrandt/jensen-frontend/issues"
+  },
+  "homepage": "https://github.com/dkingbrandt/jensen-frontend#readme"
+}

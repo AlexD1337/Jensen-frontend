@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Jensen-Frontend</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  </head>
+  <body>
+    <div id="Wrapper">
+      <img src="img/marvel-2.jpg" alt="marvel" id="img">
+    <div id="deleteContainer">
+    <form method="post">
+      <p class="writePassword">Username:</p><br>
+      <input
+        id="user"
+        type="text"
+        name="user"
+        placeholder="User"
+        required
+        disabled
+      /><br><br><p class="writePassword">Password:</p><br>
+      <input
+        id="password"
+        type="password"
+        name="password"
+        placeholder="Password"
+        required
+        disabled
+      />
+      <div class="form-group">
+        <div
+          class="g-recaptcha"
+          data-sitekey="53b10111-2f70-4589-ac99-9e638cb562fa"
+          data-callback="recaptcha_callback"
+        ></div>
+      </div>
+      <br /><br />
+
+      <input onclick= hiddenfunction() type="submit" value="Login" disabled id="login-btn" />
+     
+    </form>
+
+    <div id="rejectPopup">
+      <p id="cookieP">
+        Our website uses cookies to provide your browsing experience and
+        relavent informations.Before continuing to use our website,agree &
+        <a href="#" id="cookieConsent">accept </a>our <a href="#">Cookie Policy & Privacy</a>
+      </p>
+    </div>
+
+    <div id="cookiePopup">
+      <h4>Cookie Consent</h4>
+      <p></p>
+        Our website uses cookies to provide your browsing experience and
+        relavent informations.Before continuing to use our website, you agree &
+        accept of our <a href="#">Cookie Policy & Privacy</a>
+      </p>
+      <button onclick=rejectCookieFunction() id="rejectCookie">Reject</button>
+      <button id="acceptCookie">Accept</button>
+     
+    </div>
+    </div>
+    <div id="application">
+      <img src="img/spiderman.jpg" id="spidey">
+      <h3 class="secretPage" id="secretPage">CLICK THE RANDOM HERO BUTTON TO FIND OUT WHO YOUR HERO IS:</h3>
+      <button onclick=marvelFunction() type="submit" id="secretPageBtn" >Random Hero</button>
+      <button onclick= logOutFunction() type="submit" value="log-out" id="log-outBtn">Log out</button>
+    </div>
+    
+  </div>
+    <script src="app.js"></script>
+  
+  </body>
+
+</html>

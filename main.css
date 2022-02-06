@@ -1,0 +1,181 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+  
+    box-sizing: border-box;
+  
+    margin: auto;
+  }
+  
+  img {
+    position: absolute;
+    border: solid;
+  
+    max-height: 731px;
+    max-width: 1300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+    z-index: -1;
+  }
+  
+  #wrapper {
+    position: relative;
+    display: flex;
+  }
+  
+  .introHeader,
+  .randomtext,
+  .secretPage {
+    text-align: center;
+    margin-top: 2em;
+  }
+  .introHeader {
+    font-size: 60px;
+  }
+  .randomtext {
+    font-size: 40px;
+  }
+  a{
+    color: rgb(237, 29, 36);
+  }
+  
+  #cookieP{
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+  .secretPage {
+    font-size: 40px;
+    background-color: rgb(237, 29, 36);
+    color: white;
+    font-family: marvel;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    padding-top: 5px;
+  }
+  form {
+    background-color: rgba(227, 239, 229, 0.7);
+    width: 40em;
+    padding: 1em 1em;
+    margin: auto;
+    border-radius: 10%;
+    text-align: center;
+    margin-top: 200px;
+  }
+  
+  .writeUsername,
+  .writePassword {
+    margin: 0;
+    font-size: 20px;
+    font-family: marvel;
+    letter-spacing: 10px;
+    font-weight: bolder;
+    text-transform: uppercase;
+  }
+  #login-btn {
+    cursor: not-allowed;
+    background-color: rgb(237, 29, 36);
+    margin: 0 0 1em;
+    width: 6em;
+    height: 2em;
+    border-radius: 10px;
+    padding-left: 10px;
+  
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: marvel;
+    text-transform: uppercase;
+    color: white;
+    font-size: 25px;
+    letter-spacing: 10px;
+    font-weight: bolder;
+  }
+  #login-btn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.4), 0 17px 50px 0 rgba(0, 0, 0, 0.4);
+  }
+  .g-recaptcha {
+    margin-left: 26.5%;
+  }
+  
+  #password,
+  #user {
+    margin: 0 0 1em 0;
+    padding: 1em;
+    font-size: 20px;
+    text-align: center;
+  }
+  #user {
+    margin-bottom: 0;
+  }
+  
+  #cookiePopup {
+    background: white;
+    width: 25%;
+    position: fixed;
+    left: 10px;
+    bottom: 20px;
+    box-shadow: 0px 0px 15px #cccccc;
+    padding: 5px 10px;
+    
+  }
+  #cookiePopup p {
+    text-align: left;
+    font-size: 15px;
+    color: #4e4e4e;
+  }
+  
+  #cookiePopup button {
+    margin-left: 40px;
+    width: 35%;
+    border: navajowhite;
+    background: #097fb7;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+  }
+  #application {
+    display: none;
+  }
+  #rejectPopup {
+    display: none;
+  }
+  
+  #log-outBtn,
+  #secretPageBtn {
+    background-color: rgb(237, 29, 36);
+    margin: 0 0 1em;
+    width: 6em;
+    height: 3em;
+    border-radius: 10px;
+    padding-left: 10px;
+  
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: marvel;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 10px;
+    font-weight: bolder;
+  }
+  #log-outBtn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.4), 0 17px 50px 0 rgba(0, 0, 0, 0.4);
+  }
+  
+  @font-face {
+    font-family: marvel;
+    src: url(font/Marvel-Regular.ttf);
+  }
+  
+  #application{
+    background-color: rgba(227, 239, 229, 0.7);
+    width: 40em;
+    padding: 1em 1em;
+    margin: auto;
+    border-radius: 10%;
+    text-align: center;
+    margin-top: 200px;
+  
+  }
